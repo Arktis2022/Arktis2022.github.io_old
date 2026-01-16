@@ -530,7 +530,13 @@ function toggleNews() {
 <h2 id="Manuscripts Under Review" style="color: #2c4a88; padding-top: 60px; margin-top: -60px;"> Manuscripts Under Review</h2>
 
 <ol reversed>
-  
+
+<li id="MA-Pub1"> 
+    <span style="color:#000000; font-weight:bold;">An Annotation-Free Deep Learning Framework for Fetal Brain Hemorrhage Detection and Segmentation</span> <br>
+    <span style="color:#b02418; font-weight:bold;">Mingxuan Liu#</span>, Yingqi Hao#, Yi Liao#, Juncheng Zhu, Haoxiang Li, Hongjia Yang, Yifei Chen, Yijin Li, Kasidit Anmahapong, Nan Sun, Zihan Li, Jialan Zheng, Min Kang, Yan Song, Hua Lai, Xiaolin Zhou, Gang Ning, Haibo Qu*, Qiyuan Tian*<br> 
+    <i>JAMA Pediatrics <strong>(JAMA Pediatr). </strong></i> 2026. (Submitted)
+</li>
+
   <li id="MA-Pub3"> 
     <span style="color:#000000; font-weight:bold;">Democratizing expert-level liver sonography through an autonomous lightweight ultrasound robot</span> <br>
     Zihan Li#, Yixiao Xu#, Lei Zhang, Taiyu Han, Xinshan Yang, Yingni Wang, <span style="color:#b02418; font-weight:bold;">Mingxuan Liu</span>, Shenghai Xin, Linxun Liu, Hongen Liao*, Guochen Ning*<br>
