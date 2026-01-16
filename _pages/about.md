@@ -534,7 +534,7 @@ function toggleNews() {
 <li id="MA-Pub1"> 
     <span style="color:#000000; font-weight:bold;">An Annotation-Free Deep Learning Framework for Fetal Brain Hemorrhage Detection and Segmentation</span> <br>
     <span style="color:#b02418; font-weight:bold;">Mingxuan Liu#</span>, Yingqi Hao#, Yi Liao#, Juncheng Zhu, Haoxiang Li, Hongjia Yang, Yifei Chen, Yijin Li, Kasidit Anmahapong, Nan Sun, Zihan Li, Jialan Zheng, Min Kang, Yan Song, Hua Lai, Xiaolin Zhou, Gang Ning, Haibo Qu*, Qiyuan Tian*<br> 
-    <i>JAMA Pediatrics <strong>(JAMA Pediatr). </strong></i> 2026. (Submitted)
+    <i>JAMA Pediatrics <strong>(JAMA Pediatr). </strong></i> 2026. (Under Review)
 </li>
 
   <li id="MA-Pub3"> 
@@ -588,7 +588,7 @@ function toggleNews() {
   <li id="MA-Pub3"> 
     <span style="color:#000000; font-weight:bold;">SmaRT: Style-Modulated Robust Test-Time Adaptation for Cross-Domain Brain Tumor Segmentation in MRI</span> <br>
     Yuanhan Wang#, Yifei Chen#, Shuo Jiang, Wenjing Yu, <span style="color:#b02418; font-weight:bold;">Mingxuan Liu</span>, Beining Wu, Jinying Zong, Feiwei Qin, Changmiao Wang, Qiyuan Tian*<br>
-   <i>Imaging Neuroscience <strong>(IMAG). </strong></i> 2025. (Under Review)
+   <i>NeuroImage <strong>(NIMG). </strong></i> 2025. (Under Review)
   </li>
 
   <li id="MA-Pub3"> 
