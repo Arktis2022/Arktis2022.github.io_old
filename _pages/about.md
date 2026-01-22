@@ -31,23 +31,15 @@ Other related links: [Github](https://github.com/Arktis2022) / [Wechat](../image
 
 # 📻 News
 <div class="news-container" style="line-height: 1.6;">
-  <div class="news-scroll-wrapper" style="
-    max-height: 320px;
-    overflow-y: auto;
-    padding-right: 10px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 15px;
-    background: #fafafa;
-  ">
-    <div class="news-list" markdown="1">
+<!-- 1. 默认显示的前 5 条 -->
+<div id="recent-news" markdown="1">
 
 **2026.01.09:** 🎉🎉 One [paper](https://arxiv.org/abs/2506.09695) accepted by [Biomedical Signal Processing and Control](https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control).
 
 **2025.12.21:** 🎉🎉 One abstract accepted by [WOC 2026](https://icowoc.org/).
-
+  
 **2025.12.06:** 🎉🎉 One [paper](https://doi.org/10.1101/2025.06.04.657810) accepted by [Imaging Neuroscience](https://direct.mit.edu/imag).
-
+  
 **2025.11.22:** 🎉🎉 Attended the 2nd Graduate Academic Forum (School of Biomedical Engineering & School of Clinical Medicine, Tsinghua University) and awarded [Invited Student Speaker Award](https://drive.google.com/file/d/1wz1tAzSku36oPj3jLJ6DrqCYEHamPOiW/view?usp=sharing). [Photo](https://img.erpweb.eu.org/imgs/2025/12/f6c7ff3788f3fa0e.jpg) [Photo](https://img.erpweb.eu.org/imgs/2025/12/abfd2851a152ef49.jpg)
 
 **2025.11.20:** 🎉🎉 One abstract accepted by [APAO 2026](https://2026.apaophth.org/).
@@ -57,6 +49,11 @@ Other related links: [Github](https://github.com/Arktis2022) / [Wechat](../image
 **2025.11.08:** Attended Tsinghua Academic Path Series #724 (Sharing Session with 2025 National Scholarship Awardees from the School of Biomedical Engineering). [Link](https://mp.weixin.qq.com/s/Nqc9D1m3tXEAAhT0WqoRqA)
 
 **2025.11.04:** Attended the symposium on Recent Advances in Artificial Intelligence-Driven Magnetic Resonance Technology (CASFIS) in Hong Kong. [Photo](https://img.erpweb.eu.org/imgs/2025/11/f9e94181835f1b08.jpg) [Photo](https://img.erpweb.eu.org/imgs/2025/11/5e1287d760fafd4c.jpg)
+
+</div>
+
+<!-- 2. 隐藏的旧新闻 -->
+<div id="more-news" style="display: none;" markdown="1">
 
 **2025.10.24:** 🎉🎉 Attended the [Beijing-Tsinghua Health AI Summit](https://www.medcircle.cn/meeting/index/2025bs), awarded [Second Prize of Oral Presentation](https://drive.google.com/file/d/1aAY0IAKc4JBaHfxYEWylsKmVlIpWIUeo/view?usp=sharing), and was reported by official media of Tsinghua Medicine. [Photo](https://img.erpweb.eu.org/imgs/2025/10/8a81bac129c8f4c8.jpg) [Link](https://bme.tsinghua.edu.cn/info/1010/1530.htm) [Report](https://x.com/MedTsinghua/status/1986685733630087315)
 
@@ -150,13 +147,13 @@ Other related links: [Github](https://github.com/Arktis2022) / [Wechat](../image
 
 **2023.11.24:** 🎉🎉 Won the top3 Prize in [AI Health Summit 2023 Poster Competition](https://mp.weixin.qq.com/s/Y7yvnuK6nqyBeBf8tAofOQ).
 
-**2023.11.23:** Attended the AI Health Summit 2023 held in Singapore and posted a [poster](https://docs.google.com/presentation/d/1qF3I-coGVHokjrGOg2rSnimPrS6ak-8m/edit?usp=sharing&ouid=115888010982299494146&rtpof=true&sd=true).
+**2023.11.23:** Attended the AI Health Summit 2023 held in Singapore and posted a [poster](https://docs.google.com/presentation/d/1qF3I-coGVHokjrGOg2rSnimPrS6ak-8m/edit?usp=sharing&ouid=115888010982299494146&rtpof=true&sd=true). 
 
 **2023.10.20:** 🎉🎉 Our abstract addressed [Fetal MRI image quality assessment](https://onedrive.live.com/?authkey=%21ABvG7ukadYI%2Dipw&id=A5AB43CB4B79A37A%2133213&cid=A5AB43CB4B79A37A&parId=root&parQt=sharedby&parCid=UnAuth&o=OneUp) has been accepted by [AI Health Summit 2023](https://healthsummit.ai/main/abstracts/)
 
 **2023.10.15:** 🎉🎉 Awarded **National Scholarship** by Ministry of Education!
 
-**2023.10.02:** Attended the [NUS-THU Joint Workshop on Biomedical Engineering 2023](https://ihealthtech.nus.edu.sg/event/nus-thu-joint-workshop-on-biomedical-engineering-2023/) hosted by the [National University of Singapore](https://nus.edu.sg/) and posted a [poster](https://drive.google.com/file/d/1XvKr1N_4eonvEOxT0u8NA1tLA0tvImT3/view).
+**2023.10.02:** Attended the [NUS-THU Joint Workshop on Biomedical Engineering 2023](https://ihealthtech.nus.edu.sg/event/nus-thu-joint-workshop-on-biomedical-engineering-2023/) hosted by the [National University of Singapore](https://nus.edu.sg/) and posted a [poster](https://drive.google.com/file/d/1XvKr1N_4eonvEOxT0u8NA1tLA0tvImT3/view). 
 
 **2023.07.16:** Attended the [IEEE ASYNC 2023](https://c360-o2o.c360dn.com/b14b26a8836a3f6cf111018ac518dfa51920?watermark/3/image/aHR0cHM6Ly9jMzYwLW8yby5jMzYwZG4uY29tL2Y5OGQ4ODI5LTAwNjMtNDMxZi1iZmEyLTU2ZWU2Mjg5YTA2Mz9pbWFnZXMy/dissolve/100/gravity/SouthEast/dx/0/dy/0/ws/0.2071148722770726) held in Beijing, China.
 
@@ -164,42 +161,30 @@ Other related links: [Github](https://github.com/Arktis2022) / [Wechat](../image
 
 **2023.05.21:** 🎉🎉 Our paper addressed [Unsupervised Medical Image Anomaly Detection](https://ieeexplore.ieee.org/abstract/document/10181639) has been accepted by [IEEE ISCAS 2023](https://2023.ieee-iscas.org/).
 
-    </div>
-  </div>
-  
-  <p style="text-align: center; color: #888; font-size: 0.85em; margin-top: 8px;">
-    ↕ Scroll to see more news
-  </p>
 </div>
 
-<style>
-/* 自定义滚动条样式 */
-.news-scroll-wrapper::-webkit-scrollbar {
-  width: 6px;
+<!-- 修复：将 <a> 标签改为 <button> 标签，避免弹窗跳转 -->
+<!-- 样式：去掉了按钮默认的边框和背景，模拟成链接的样子 -->
+<button onclick="toggleNews()" id="news-toggle-btn" style="background: none; border: none; padding: 0; margin-top: 10px; color: #2c4a88; font-weight: bold; cursor: pointer; text-decoration: underline; font-size: inherit; font-family: inherit;">
+  Show more
+</button>
+
+<script>
+function toggleNews() {
+  var moreNews = document.getElementById("more-news");
+  var btn = document.getElementById("news-toggle-btn");
+
+  if (moreNews.style.display === "none") {
+    moreNews.style.display = "block";
+    btn.innerHTML = "Show less";
+  } else {
+    moreNews.style.display = "none";
+    btn.innerHTML = "Show more";
+  }
 }
-.news-scroll-wrapper::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 3px;
-}
-.news-scroll-wrapper::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-  border-radius: 3px;
-}
-.news-scroll-wrapper::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8;
-}
-/* 新闻条目间距 */
-.news-list p {
-  margin: 0 0 12px 0;
-  padding-bottom: 12px;
-  border-bottom: 1px dashed #e8e8e8;
-}
-.news-list p:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-</style>
+</script>
+
+</div>
 
 # 📝 Publications 
 <span style="color:#b02418; font-weight:bold;">#</span> co-first author | <span style="color:#b02418; font-weight:bold;">*</span> corresponding author <br> 
