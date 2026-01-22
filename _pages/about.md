@@ -594,7 +594,7 @@ function toggleNews() {
   <li id="MA-Pub3"> 
     <span style="color:#000000; font-weight:bold;">SmaRT: Style-Modulated Robust Test-Time Adaptation for Cross-Domain Brain Tumor Segmentation in MRI</span> <br>
     Yuanhan Wang#, Yifei Chen#, Shuo Jiang, Wenjing Yu, <span style="color:#b02418; font-weight:bold;">Mingxuan Liu</span>, Beining Wu, Jinying Zong, Feiwei Qin, Changmiao Wang, Qiyuan Tian*<br>
-   <i>NeuroImage <strong>(NIMG). </strong></i> 2025. (Under Review)
+   <i>Knowledge-based Systems <strong>(KBS). </strong></i> 2025. (Under Review)
   </li>
 
   <li id="MA-Pub3"> 
