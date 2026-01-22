@@ -337,6 +337,9 @@ function toggleNews() {
 
 
 <h2 id="CONFERENCE ABSTRACTS" style="color: #2c4a88; padding-top: 60px; margin-top: -60px;">CONFERENCE ABSTRACTS</h2>
+<div class="news-container" style="line-height: 1.6;">
+<!-- 1. 默认显示的前 5 条 -->
+<div id="recent-news" markdown="1">
 <ol reversed>
   <li id="MA-Pub3"> 
     <span style="color:#000000; font-weight:bold;">Prognostic Al Model for Myopia in Children & Adolescents Using Real-World intervention Data: A 7-Center Study</span> <br>
@@ -370,7 +373,10 @@ function toggleNews() {
     Yuhang He, Jialan Zheng, Hongjia Yang, Yifei Chen, Zihan Li, <span style="color:#b02418; font-weight:bold;">Mingxuan Liu</span>, Qiuyun Fan, Yi Liao, Haibo Qu, Qiyuan Tian, Jie Lu, Ziyu Li*<br>
     <i>Annual Meeting of Radiological Society of North America <strong>(RSNA). </strong></i> 2025. (Poster)
   </li>
+</div>
 
+<!-- 2. 隐藏的旧新闻 -->
+<div id="more-news" style="display: none;" markdown="1">
 
   <li id="CA-Pub0"> 
     <span style="color:#000000; font-weight:bold;">Unsupervised Fetal Brain MRI Quality Assessment based on Orientation Prediction Uncertainty</span> <br>
@@ -676,6 +682,31 @@ Fetal Brain MRI Free-Text Corpora</span> <br>
     <i>ISMRM Workshop on Unlocking the Potential of Prenatal MRI: Advances in Fetal Brain, Heart & Placenta Imaging. </i> 2026. (Under Review)
   </li>
 </ol>
+</div>
+
+<!-- 修复：将 <a> 标签改为 <button> 标签，避免弹窗跳转 -->
+<!-- 样式：去掉了按钮默认的边框和背景，模拟成链接的样子 -->
+<button onclick="toggleNews()" id="news-toggle-btn" style="background: none; border: none; padding: 0; margin-top: 10px; color: #2c4a88; font-weight: bold; cursor: pointer; text-decoration: underline; font-size: inherit; font-family: inherit;">
+  Show more
+</button>
+
+<script>
+function toggleNews() {
+  var moreNews = document.getElementById("more-news");
+  var btn = document.getElementById("news-toggle-btn");
+
+  if (moreNews.style.display === "none") {
+    moreNews.style.display = "block";
+    btn.innerHTML = "Show less";
+  } else {
+    moreNews.style.display = "none";
+    btn.innerHTML = "Show more";
+  }
+}
+</script>
+
+</div>
+
 
 # 🎖 Honors and Awards
 - [[Certificate]](https://img.erpweb.eu.org/imgs/2026/01/5f385f7acc2664fd.jpg) *2026* **2nd Place in the Oral Session of AI for Image Reconstruction and Analysis**<br /> &nbsp; &nbsp; &nbsp; *The Center for Biomedical Imaging Research (CBIR), Tsinghua University*
