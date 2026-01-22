@@ -337,10 +337,10 @@ function toggleNews() {
 
 
 <h2 id="CONFERENCE ABSTRACTS" style="color: #2c4a88; padding-top: 60px; margin-top: -60px;">CONFERENCE ABSTRACTS</h2>
+<ol reversed>
 <div class="news-container" style="line-height: 1.6;">
 <!-- 1. 默认显示的前 5 条 -->
 <div id="recent-news" markdown="1">
-<ol reversed>
   <li id="MA-Pub3"> 
     <span style="color:#000000; font-weight:bold;">Prognostic Al Model for Myopia in Children & Adolescents Using Real-World intervention Data: A 7-Center Study</span> <br>
     Ying Wu, Yitong Zhang, <span style="color:#b02418; font-weight:bold;">Mingxuan Liu</span>, Lijun Zhang, Qiyuan Tian*<br>
@@ -531,6 +531,32 @@ function toggleNews() {
     <span style="color:#b02418; font-weight:bold;">Mingxuan Liu</span>, Haoxiang Li, Haibo Qu, Qiyuan Tian* <br>
     <i>Singapore AI Health Summit </i> 2023. (Poster Competition 3rd Place Winner, Top 3%)
   </li>
+
+</div>
+
+<!-- 修复：将 <a> 标签改为 <button> 标签，避免弹窗跳转 -->
+<!-- 样式：去掉了按钮默认的边框和背景，模拟成链接的样子 -->
+<button onclick="toggleNews()" id="news-toggle-btn" style="background: none; border: none; padding: 0; margin-top: 10px; color: #2c4a88; font-weight: bold; cursor: pointer; text-decoration: underline; font-size: inherit; font-family: inherit;">
+  Show more
+</button>
+
+<script>
+function toggleNews() {
+  var moreNews = document.getElementById("more-news");
+  var btn = document.getElementById("news-toggle-btn");
+
+  if (moreNews.style.display === "none") {
+    moreNews.style.display = "block";
+    btn.innerHTML = "Show less";
+  } else {
+    moreNews.style.display = "none";
+    btn.innerHTML = "Show more";
+  }
+}
+</script>
+
+</div>
+
 </ol>
 
 <h2 id="Manuscripts Under Review" style="color: #2c4a88; padding-top: 60px; margin-top: -60px;"> Manuscripts Under Review</h2>
@@ -682,30 +708,6 @@ Fetal Brain MRI Free-Text Corpora</span> <br>
     <i>ISMRM Workshop on Unlocking the Potential of Prenatal MRI: Advances in Fetal Brain, Heart & Placenta Imaging. </i> 2026. (Under Review)
   </li>
 </ol>
-</div>
-
-<!-- 修复：将 <a> 标签改为 <button> 标签，避免弹窗跳转 -->
-<!-- 样式：去掉了按钮默认的边框和背景，模拟成链接的样子 -->
-<button onclick="toggleNews()" id="news-toggle-btn" style="background: none; border: none; padding: 0; margin-top: 10px; color: #2c4a88; font-weight: bold; cursor: pointer; text-decoration: underline; font-size: inherit; font-family: inherit;">
-  Show more
-</button>
-
-<script>
-function toggleNews() {
-  var moreNews = document.getElementById("more-news");
-  var btn = document.getElementById("news-toggle-btn");
-
-  if (moreNews.style.display === "none") {
-    moreNews.style.display = "block";
-    btn.innerHTML = "Show less";
-  } else {
-    moreNews.style.display = "none";
-    btn.innerHTML = "Show more";
-  }
-}
-</script>
-
-</div>
 
 
 # 🎖 Honors and Awards
